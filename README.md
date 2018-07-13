@@ -18,9 +18,9 @@ docker build -t imageName .
 ## Run Container
 ```sh
 // this will run the on 127.0.0.1
-docker run --name normal -i -d -p 127.0.0.1:80:80 imageName
+docker run --name containerName -i -d -p 127.0.0.1:80:80 imageName
 // enter the containers bash
-docker exec -i -t imageName /bin/bash
+docker exec -i -t containerName /bin/bash
 ```
 ## Use PHP 7.1
 ```sh
